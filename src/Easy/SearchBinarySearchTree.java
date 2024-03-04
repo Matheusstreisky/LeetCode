@@ -1,5 +1,7 @@
 package Easy;
 
+import Easy.Commons.TreeNode;
+
 public class SearchBinarySearchTree {
 
     public TreeNode searchBST(TreeNode root, int val) {
@@ -13,20 +15,6 @@ public class SearchBinarySearchTree {
             return searchBST(root.right, val);
         } else {
             return searchBST(root.left, val);
-        }
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
         }
     }
 }
