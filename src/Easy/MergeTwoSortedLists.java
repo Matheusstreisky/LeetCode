@@ -1,6 +1,6 @@
 package Easy;
 
-import Easy.Commons.ListNode;
+import Commons.ListNode;
 
 public class MergeTwoSortedLists {
 
@@ -10,7 +10,7 @@ public class MergeTwoSortedLists {
         return result.next;
     }
 
-    public void mergeLists(ListNode result, ListNode list1, ListNode list2) {
+    private void mergeLists(ListNode result, ListNode list1, ListNode list2) {
         if (list1 == null && list2 == null) {
             return;
         } else if (list1 != null && list2 == null) {

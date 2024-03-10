@@ -1,4 +1,4 @@
-package Easy.Commons;
+package Commons;
 
 public class TreeNode {
     public int val;

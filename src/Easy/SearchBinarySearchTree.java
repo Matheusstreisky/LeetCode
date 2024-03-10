@@ -1,6 +1,6 @@
 package Easy;
 
-import Easy.Commons.TreeNode;
+import Commons.TreeNode;
 
 public class SearchBinarySearchTree {
 

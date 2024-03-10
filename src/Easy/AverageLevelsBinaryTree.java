@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import Easy.Commons.TreeNode;
+import Commons.TreeNode;
 
 public class AverageLevelsBinaryTree {
 

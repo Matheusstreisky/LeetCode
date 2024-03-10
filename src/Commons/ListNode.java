@@ -1,4 +1,4 @@
-package Easy.Commons;
+package Commons;
 
 public class ListNode {
     public int val;
